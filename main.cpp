@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h> // getch()
 using namespace std;
 
 int main (int argc, char *argv[])
@@ -178,6 +177,6 @@ int main (int argc, char *argv[])
     delete []neuron;
     delete []neuron_prev;
 
-    getch(); // wait until any key is pressed
+    cin.get(); // wait until Return is pressed
     return 0;
 }
