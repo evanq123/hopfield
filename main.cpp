@@ -88,6 +88,7 @@ int main (int argc, char *argv[])
     while(ctr_unchg<100 && ctr<1000) // max 1000 loops allowed
     {
 
+        
         // First choice for updating the network
         for(k=0;k<n;k++) // update the whole network ?
         {
@@ -124,7 +125,7 @@ int main (int argc, char *argv[])
         }
         // update the neurons with the new values
         neuron=neuron_temp; // update the array pointer
-        delete []neuron;    // delete the old values
+        //delete []neuron;    // delete the old values
         */
 
         // if state of the network unchanged
