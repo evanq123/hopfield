@@ -177,6 +177,6 @@ int main (int argc, char *argv[])
     delete []neuron;
     delete []neuron_prev;
 
-    cin.get(); // wait until Return is pressed
+    //cin.get(); // wait until Return is pressed
     return 0;
 }
